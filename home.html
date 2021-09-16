@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body, html {
+  font-family: "Lato", sans-serif;
+  height: 100%;
+  margin: 0;
+
+}
+
+.h2{
+  font-size: 30px;
+  padding-bottom: 5px;
+
+}
+
+.main {
+  margin-left: 500px; /* Same as the width of the sidenav */
+  font-size: 24px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  line-height: normal;
+  padding-top: 80px;
+  margin-right: 300px;
+}
+
+.date {
+  font-size: 20px;
+  font-family: Optima, sans-serif;
+  padding:  20px 20px 40px 0px
+
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 1;
+  background-color: #25523B;
+  overflow-x: hidden;
+  padding-top: 30px;
+ }
+
+.shay {
+  margin: 25px;
+  font-size:30px;
+  color: white;
+  font-family: Noto Sans, sans-serif;
+  letter-spacing: 2px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.auto {
+  margin:25px;
+  font-size:25px;
+  color:white;
+  text-decoration: underline;
+}
+
+
+.sidenav a {
+  padding: 10px 8px 6px 24px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #f1f1f1;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #62BD69;
+}
+
+.sidenav a.active {
+  background-color: #62BD69;
+  color: white;
+ }
+ 
+.copyright {
+  font-size: 20px;
+  color: white;
+  margin:30px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+ul li::before {
+  content: "\2022";
+  color: #B8F69E;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+</style>
+</head>
+<body>
+
+
+<div class="main">
+
+  <h1>Hey, I'm Shay.</h2>
+  
+	<div class="intro"> I'm currently a <b> Computer Science freshman student</b>. I would like to see what would happen if I mix <u color="green"> programming</u> with <u color="green"> medical concepts</u>.	
+	This is my very first dedicated prototype website that I have been trying to personalize. Feel free to look around! It is still in the works though.
+	</div>
+		
+		<div class="date"> <em> First Created: 09/12/2021 <br> Website Inspired By: Tania Rascia</em> </div>
+		
+		<div class="h2"><b> Facts </b></div>
+	<div class="intro"> Here are some facts about me:</div>
+	<ul>
+		<li> I plan to take bioinformatics when I get older.
+		<li> I watched The Office last entire summer vacation.
+		<li> I would agree to bake if you give me the ingredients.
+		<li> I once placed 4th place in News Wrting but quit afterwards.
+		<li> I'm almost finished catching up on the MCU series.
+		<li> I'm starting to like this course a lot.
+	</ul>
+</div>
+
+<div class="sidenav">
+	<div class="shay">SHAYNALENE<br>
+	PABALATE 
+	</div>
+	<div class="auto">AUTOBIOGRAPHY</div>
+
+  <a href="index.html">Home</a>
+  <a class="active" href="home.html">The Author</a>
+  <a href="funfacts.html">About Me</a>
+  <a href="contacts.html">Contact</a>
+  <div class="copyright">Copyright © All rights reserved.</div>
+  
+</div>
+ 
+</body>
+</html> 

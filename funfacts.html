@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://unpkg.com/blocks.css/dist/blocks.min.css" />
+<style>
+*{box-sizing:border-box;}
+body, html {
+  font-family: "Lato", sans-serif;
+  height: 100%;
+  margin: 0;
+ 
+}
+
+.h4
+{
+font-size: 30px;
+text-align: center;
+padding-top: 20px;
+font-weight: bold;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 0 30px;
+}
+
+.row {margin: 0 -5px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  background-color: #B8F69E;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.shay {
+  margin: 25px;
+  font-size:30px;
+  color: white;
+  font-family: Noto Sans, sans-serif;
+  letter-spacing: 2px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.auto {
+  margin:25px;
+  font-size:25px;
+  color:white;
+  text-decoration: underline;
+}
+
+.main {
+  margin-left: 500px; /* Same as the width of the sidenav */
+  font-size: 24px; /* Increased text to enable scrolling */
+  line-height: normal;
+  margin-right: 300px;
+  padding-top: 80px;
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 1;
+  background-color: #25523B;
+  overflow-x: hidden;
+  padding-top: 30px;
+ }
+
+.sidenav a {
+  padding: 10px 8px 6px 24px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #f1f1f1;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #62BD69;
+}
+
+.sidenav a.active {
+  background-color: #62BD69;
+  color: white;
+ }
+ 
+ .copyright {
+  font-size: 20px;
+  color: white;
+  margin:30px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.p1{
+  padding-bottom: 50px;
+}
+
+}
+
+</style>
+</head>
+<body>
+
+
+<div class="main">
+
+  <h1>Get to Know Me Better!</h1>
+  This is a section that gives more information about me. Don't say your judgements aloud about me though. Though I would say that this page is as minimal as it can get.  
+		
+  <p>Here are some lists to know more about me.</p>
+   <h2>Tools</h2>
+   <div class="row">
+   <div class="column">
+   <div class="card">
+   <div class="h4"> Software </div>
+   <ol>
+		<li> Visual Studio
+		<li> Adobe Suite
+		<li> Sony Vegas
+		<li> Notepad++
+		<li> Jupyter Notebook
+		<li> Microsoft Office
+		
+	</ol>
+	</div>
+	</div>
+	<div class="column">
+	<div class="card">
+	<div class="h4"> Hardware</div>
+	<ul>
+		<li> <b> Current Device: </b> <br>  MSI GF65 Thin 10UE-230PH
+		<li> <b>Gaming Mouse:</b> Razer Deathadder Elite
+	</ol>
+	</div>
+	</div>
+	</div>
+  <h2>Personal</h2>
+  <div class="row">
+  <div class="column">
+  <div class="card">
+  <div class="h4">Schools Attended:</div>
+	<ol start=1 type=I>
+		<li> Academia De Covina
+		<li> University of Perpetual Help System Dalta - Molino Campus
+		<li> <b> Adamson University (Currently) </b>
+	</ol>
+	</div>
+	</div>
+  <div class="column">
+  <div class="card">
+	<div class="h4">Past Clubs or Organizations:</div>
+	<ul style="list-style-type:square">
+		<li> COMELEC
+		<li> Writer's Guild
+		<li> Social Studies Club
+		<li> The Junior Perpetualite
+	</ul>
+	</div>
+	</div>
+  </div>
+<h2> Motto </h2>
+<div class="p1">"Relive in order to be relieved."</div>
+</div>
+
+<div class="sidenav">
+	<div class="shay">SHAYNALENE<br>
+	PABALATE 
+	</div>
+	<div class="auto">AUTOBIOGRAPHY</div>
+
+  <a href="index.html">Home</a>
+  <a href="home.html">The Author</a>
+  <a class="active" href="funfacts.html">About Me</a>
+  <a href="contacts.html">Contact</a>
+  <div class="copyright">Copyright © All rights reserved.</div>
+  
+
+</div>
+ 
+</body>
+</html> 
